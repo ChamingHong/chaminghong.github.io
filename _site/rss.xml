@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>郑之杰的个人网站</title>
-    <description>为天地立心, 为生民立命, 为往圣继绝学, 为万世开太平</description>
+    <title>洪茬铭的个人网站</title>
+    <description>孩儿立志出乡关，学不成名誓不还</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     <pubDate>Sat, 21 Mar 2020 19:16:32 +0800</pubDate>
