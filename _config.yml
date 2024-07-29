@@ -26,8 +26,8 @@ footer:
 # Author 配置博主信息
 author: '洪茬铭'
 nickname: '铭铭铭ing'
-bio: '拖延症患者'
-avatar: 'https://s2.loli.net/2024/07/29/VO6QELZzxJbvUoY.jpg'
+bio: '骑行世界，欣赏世界'
+avatar: 'https://pic.imgdb.cn/item/66a79f49d9c307b7e93b59ec.jpg'
 
 # Search 关键词搜索
 search: true
@@ -40,12 +40,12 @@ comments:
   disqus: false
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
   
-  gitalk: true
-  gitalk_clientID: 'd45b6dcdac0458c21c03'
-  gitalk_Secret: '875ea1d909ddd834f6e6dc7448d0616eec1096a2'
-  gitalk_repo: '0809zheng.github.io'
-  gitalk_owner: '0809zheng'
-  gitalk_admin: '0809zheng'
+  gitalk: false
+  gitalk_clientID: ''
+  gitalk_Secret: ''
+  gitalk_repo: ''
+  gitalk_owner: ''
+  gitalk_admin: ''
   distractionFreeMode: true
 
 # MathJax 公式支持 by Ray-Eldath
