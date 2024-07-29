@@ -1,14 +1,17 @@
 <footer class="g-footer">
-  <div style="width: 300px; height: 200px; margin: auto;">
+  <div class="map-container">
     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=Rwj3QLSa_EP5k0TCec_B0PvF65BGZz6i0u1GrnOMwHg"></script>
   </div>
-  <section>{{ site.title }} ©
-  {% assign current = "now" | date: "%Y" | plus: 0%}
-  {% unless site.footer.since and site.footer.since == current %}
-    {{ site.footer.since }}
-    -
-  {% endunless %}
-  {{ current }}
+  <section class="footer-info">
+    {{ site.title }} ©
+    {% assign current = "now" | date: "%Y" | plus: 0 %}
+    {% unless site.footer.since and site.footer.since == current %}
+      {{ site.footer.since }}
+      -
+    {% endunless %}
+    {{ current }}
   </section>
-  <section>Powered by <a href="//jekyllrb.com">Jekyll</a></section>
+  <section class="footer-info">
+    Powered by <a href="//jekyllrb.com">Jekyll</a>
+  </section>
 </footer>
