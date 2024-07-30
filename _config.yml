@@ -40,12 +40,12 @@ comments:
   disqus: false
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
   
-  gitalk: false
-  gitalk_clientID: ''
-  gitalk_Secret: ''
-  gitalk_repo: ''
-  gitalk_owner: ''
-  gitalk_admin: ''
+  gitalk: true
+  gitalk_clientID: 'Ov23li6aQJfNYvLKdw1n'
+  gitalk_Secret: 'f89957a73e90c4f3010ad3d84be4422af4d280d3'
+  gitalk_repo: 'chaminghong.github.io'
+  gitalk_owner: 'chaminghong'
+  gitalk_admin: 'chaminghong'
   distractionFreeMode: true
 
 # MathJax 公式支持 by Ray-Eldath

@@ -18,7 +18,7 @@ tags: 图像超分
 
 ## 1.1 计算公式
 
-峰值信噪比 (Peak Signal-to-Noise Ratio, PSNR)，用于衡量两张图像之间差异，例如压缩图像与原始图像，评估压缩图像质量；复原图像与 ground truth，评估复原算法性能等。
+峰值信噪比 (Peak Signal-to-Noise Ratio, PSNR)，用于衡量两张图像之间差异，例如压缩图像与原始图像，评估压缩图像质量；复原图像与 Ground Truth (GT)，评估复原算法性能等。
 
 公式：
 
@@ -33,7 +33,7 @@ $$
 
 ## 1.2 代码实现
 
-### 1.2.1 BGR空间
+### 1.2.1 BGR 空间
 
 使用  opencv 读取图像时，默认的通道顺序 `HWC`，颜色顺序 `BGR`，数据类型 `np.ndarray`，数据范围为 `np.uint8` 型的 $[0, 255]$。如果是在 `BGR` 空间计算 PSNR，那么只需要分别在 `BGR` 三个通道上分别计算 $MSE$，取平均然后带入公式2即可。主要代码如下：
 
@@ -59,7 +59,7 @@ else:
 print(f'PSNR value: {psnr:.6f}dB.')
 ```
 
-### 1.2.2 YCbCr空间
+### 1.2.2 YCbCr 空间
 
 想要计算 `YCbCr` 空间的 PSNR，首先需要将 opencv 读取的 `BGR` 颜色空间的图像转换到 `YCbCr`颜色空间。opencv 自带有颜色空间转换函数 `cv2.COLOR_BGR2YCrCb()`，但是，opencv 的转换遵循的是 **[JPEG 转换](https://en.wikipedia.org/wiki/YCbCr#JPEG_conversion)**，转换后的各通道具有完整的 8 bit 范围 $[0, 255]$。但是在超分的 PSNR 计算时，往往使用的是 **[ITU-R BT.601 转换](https://en.wikipedia.org/wiki/YCbCr#ITU-R_BT.601_conversion)**，这种转换的结果是 Y 分量的范围从 $[0, 255]$ 变为 $[16, 235]$，而 $C_B$ 和 $C_R$ 分量从 $[0, 255]$ 变为 $[16, 240]$。ITU-R BT.601 转换公式：
 
@@ -170,7 +170,7 @@ $$
 
 ## 2.2 代码实现
 
-具体代码见github仓库。
+具体代码见 Github 仓库。
 
 
 
