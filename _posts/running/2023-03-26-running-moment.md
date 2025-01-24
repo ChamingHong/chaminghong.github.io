@@ -9,6 +9,20 @@ tags: 跑步
 
 
 
+**<font size=5>📆 2024.11.03 南京高淳半程马拉松（21.0975KM）</font>**
+
+<img src="https://pic1.imgdb.cn/item/67932c87d0e0a243d4f77371.jpg" style="zoom:15%;" />
+
+---
+
+
+**<font size=5>📆 2024.10.20  南航72周年校庆马拉松（11KM）</font>**
+
+<img src="https://pic.imgdb.cn/item/671f2c09d29ded1a8ce74fea.jpg" style="zoom:20%;" />
+
+---
+
+
 **<font size=5>📆 2023.11.12  南京马拉松（首马 42.195KM）</font>**
 
 <img src="https://pic.imgdb.cn/item/66c1cbb8d9c307b7e90c818a.jpg" style="zoom:50%;" />
@@ -25,8 +39,3 @@ tags: 跑步
 
 <img src="https://pic.imgdb.cn/item/66c1cbfbd9c307b7e90d15cf.jpg" style="zoom:50%;" />
 
----
-
-**<font size=5>📆 2024.10.20  南航72周年校庆马拉松（11KM）</font>**
-
-<img src="https://pic.imgdb.cn/item/671f2c09d29ded1a8ce74fea.jpg" style="zoom:20%;" />
